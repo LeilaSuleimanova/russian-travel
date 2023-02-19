@@ -1,7 +1,19 @@
 .header__lang-links {
   display: flex;
-  padding: 0;
-  list-style: none;
+  padding: 0 0 6px 0;
   column-gap: 18px;
-  margin-bottom: 6px;
+  align-self: end;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__lang-links {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-links {
+    padding-bottom: 0;
+    align-self: auto;
+  }
 }

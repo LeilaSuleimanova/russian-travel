@@ -7,3 +7,19 @@
   margin: 0;
   padding: 0 0 64px 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .lead__subtitle {
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    padding-bottom: 40px;
+    min-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+    max-height: 40px;
+  }
+}
