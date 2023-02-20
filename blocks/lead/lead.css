@@ -6,11 +6,6 @@
   padding-bottom: 92px;
 }
 
-@media screen and (max-width: 1279px) {
-  .lead {
-  }
-}
-
 @media screen and (max-width: 1023px) {
   .lead {
     padding-bottom: 88px;

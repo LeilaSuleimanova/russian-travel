@@ -5,15 +5,3 @@
   align-self: end;
 }
 
-@media screen and (max-width: 1023px) {
-  .header__lang-links {
-    padding-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header__lang-links {
-    padding-bottom: 0;
-    align-self: auto;
-  }
-}
